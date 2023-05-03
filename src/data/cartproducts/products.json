@@ -1,0 +1,28 @@
+[{
+  "name": "Potatoes",
+  "price": "5",
+  "quantity": 1,
+  "barcode": "67675858"
+},{
+  "name": "Redbull Pack of 12",
+  "price": "24",
+  "quantity": 2,
+  "barcode": "65844648195"
+},
+{
+  "name": "Redbull Yellow",
+  "price": "2",
+  "quantity": 6,
+  "barcode": "6969877855"
+},{
+  "name": "Onions",
+  "price": "1",
+  "quantity": 2,
+  "barcode": "6548464658"
+},
+{
+  "name": "Dettol Hand wash",
+  "price": "4",
+  "quantity": 1,
+  "barcode": "56654846688"
+}]

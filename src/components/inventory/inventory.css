@@ -1,0 +1,18 @@
+.inventory-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .MuiInputLabel-root {
+    font-size: 16px !important;
+    padding-bottom: 25px !important;
+  }
+  
+  .MuiInput-root {
+    /* height: 45px !important; */
+    font-size: 16px !important;
+  }
+
+  

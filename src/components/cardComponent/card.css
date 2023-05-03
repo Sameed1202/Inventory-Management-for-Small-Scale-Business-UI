@@ -1,0 +1,31 @@
+.cardLayout {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1{
+    margin: 15px 0px 15px 15px;
+}
+
+.heading{
+    /* margin-left: 20px; */
+}
+
+.club {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mr-100{
+    margin-right: 100px !important;
+
+}
+
+.border {
+    margin-top: 16px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}

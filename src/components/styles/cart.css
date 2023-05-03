@@ -1,0 +1,116 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+article{
+    /* margin-top: 240px; */
+    width: 60%;
+    border: 3px solid #1976d2;
+    border-radius: 6px; 
+}
+
+.background-img {
+    background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+
+.cart_box img{
+    width: 200px;
+    height: 50px;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.5rem;
+  
+}
+.cart_box{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #1976d2;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.cart_box .quantity{
+    margin-left: 466px;
+    margin-right: 100px;
+}
+
+.cart_box .heading p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.heading_background{
+    background-color: #1976d2 !important;
+    
+}
+.cart_box:nth-of-type(2n+1){
+    background-color: #eef2f9;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    border-color: #ffffff;
+    border-radius: 20%;
+    background-color: #aecfef;
+    cursor: pointer;
+}
+.cart_box div:nth-child(2) button:hover{
+    background-color: #1976d2;
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    border:none;
+    outline: none;
+    color: rgb(224, 40, 40);
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: #1976d2;
+}
+.cart_box div:nth-child(3) span{
+    background-color: #aecfef;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.total{
+    background-color: #1976d2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+.total span:nth-child(1){
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 3px;
+}
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: #ff9c9c;
+    font-weight: 500;
+    border: solid 2px white;
+    padding: 3px;
+    border-radius: 6px;
+}
